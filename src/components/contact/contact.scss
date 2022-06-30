@@ -1,0 +1,115 @@
+.contact {
+    background-color: #071426;
+    color: #7AFDD6;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    .seccion {
+        padding: 1rem;
+        width: inherit;
+        align-self: center;
+
+        .infocontacto {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-flow: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+
+            h3 {
+
+                color: #e1e2e1;
+                font-size: calc(1.5rem + 1.5vw);
+                margin-bottom: 1.5rem;
+            }
+
+            p {
+                color: #e1e2e1;
+                margin-bottom: 1.5rem;
+                font-size: 1.1rem;
+            }
+
+            a.email {
+                text-decoration: none;
+                color: #e1e2e1;
+                border: 2px solid #7AFDD6;
+                padding: 1rem;
+                width: 10rem;
+                border-radius: 0.3rem;
+                margin-bottom: 1.5rem;
+
+            }
+
+            a.email:hover {
+
+                background-color: #7AFDD6;
+                border-color: #7AFDD6;
+                color: #0A192F;
+            }
+
+            .redes {
+
+                .iconredes {
+                    margin: 0 0.5rem 0;
+                    font-size: 2rem;
+                    color: #e1e2e1;
+                }
+
+                .iconredes:hover {
+                    color: #7AFDD6;
+                }
+
+
+            }
+        }
+        p.creacion{
+        color:#e1e2e1;
+        }
+    }
+
+    .apertura:before {
+        content: "<";
+    }
+
+    .apertura {
+        font-weight: normal;
+
+
+    }
+
+    .apertura:before,
+    .apertura:after {
+        display: inline-block;
+    }
+
+    .apertura:after {
+        content: ">";
+    }
+
+    .apertura:before,
+    .apertura:after {
+        display: inline-block;
+    }
+
+    .cierre:after {
+        content: "</" attr(data-text) ">";
+        display: inline-block;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+
+    }
+}
+
+@media all and (min-width:1280px) {
+    .contact {
+        .seccion {
+            width: 60%;
+
+        }
+
+    }
+}

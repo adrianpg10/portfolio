@@ -1,0 +1,127 @@
+.home {
+   background-color: #0A192F;
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+   .contenidoHome {
+
+      display: flex;
+      flex-flow: column;
+      max-width: 80rem;
+
+      justify-content: center;
+      padding: 1rem;
+
+
+      h1 {
+         font-size: calc(1.5rem + 3vw);
+         font-weight: bold;
+         color: #e1e2e1;
+
+      }
+
+      h2 {
+         font-size: calc(1rem + 1.5vw);
+         font-weight: bold;
+         color: #e1e2e1c7;
+
+         span {
+            font-size: inherit;
+            color: #7AFDD6;
+         }
+      }
+
+      h3 {
+         font-size: calc(1rem + 0.2vw);
+         color: #7AFDD6;
+         font-weight: normal;
+      }
+
+      .ityped-cursor {
+         animation: blink 1s infinite;
+      }
+
+      @keyframes blink {
+         50% {
+            opacity: 1;
+         }
+
+         100% {
+            opacity: 0;
+         }
+      }
+
+      .logos {
+
+         display: flex;
+         margin-left: auto;
+
+         a {
+
+            .iconredes {
+               color: #e1e2e1;
+               font-style: none;
+               font-size: 2rem;
+
+
+            }
+
+            .iconredes:hover {
+               color: #7AFDD6;
+            }
+         }
+
+         a:nth-child(1) {
+            margin-right: 0.5rem;
+
+         }
+
+      }
+
+      .logos>picture:nth-child(1) {
+         margin-left: auto;
+         margin-right: 0.5rem;
+      }
+
+      div.hablemos {
+
+         a {
+            margin-top: 2rem;
+            border: 2px solid #e1e2e1;
+            border-radius: 0.3rem;
+            padding: 0.7rem;
+            color: #e1e2e1;
+            width: calc(7rem + 1vw);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0A192F;
+            min-width: 10rem;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+
+            .contenedorarrow {
+               margin-left: 0.5rem;
+               display: flex;
+               align-items: center;
+
+            }
+
+         }
+
+         a:hover {
+            background-color: #7AFDD6;
+            border-color: #7AFDD6;
+            color: #0A192F;
+
+         }
+      }
+
+
+   }
+
+
+}

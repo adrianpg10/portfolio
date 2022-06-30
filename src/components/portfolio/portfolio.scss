@@ -1,0 +1,195 @@
+.portfolio {
+    background-color: #0A192F;
+    color: #7AFDD6;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    .seccion {
+        padding: 1rem;
+        height: 100%;
+        align-self: center;
+
+        ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            margin-top: 1rem;
+
+        }
+
+        .itemsproyectos {
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            margin-top: 1rem;
+
+            .proyecto {
+
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                align-items: center;
+                overflow: hidden;
+                position: relative;
+                text-align: left;
+                border-radius: 0.3rem;
+                margin-bottom: 1rem;
+            }
+
+            .proyecto * {
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                -webkit-transition: all 0.25s ease;
+                transition: all 0.25s ease;
+            }
+
+            .proyecto img {
+                width: 100%;
+                vertical-align: top;
+                position: relative;
+                opacity: 0.75;
+            }
+
+
+            .proyecto h3,
+            .proyecto p {
+                margin: 0;
+                padding: 0;
+            }
+
+            .proyecto h3 {
+                font-weight: 800;
+                letter-spacing: -0.4px;
+                color: #e1e2e1;
+                border-radius: 0.3rem;
+            }
+
+            .proyecto .hover {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                align-items: center;
+                background-color: #0a192ff1;
+                font-size: 3rem;
+                justify-content: center;
+                opacity: 0;
+                display: flex;
+                flex-flow: column;
+                cursor: pointer;
+
+                h3 {
+                    font-size: 2rem;
+
+                    @media all and (min-width:700px) {
+                        font-size: 1.5rem;
+
+                    }
+                }
+
+                p {
+                    font-size: 1rem;
+                    margin-bottom: 1rem;
+                }
+
+                a {
+                    font-style: none;
+                    color: #e1e2e1;
+
+                }
+
+                a:nth-child(2) {
+                    margin-left: 0.5rem;
+                }
+            }
+
+            .proyecto:hover .hover,
+            .proyecto.hover .hover {
+                -webkit-transition-delay: 0.1s;
+                transition-delay: 0.1s;
+                opacity: 1;
+            }
+        }
+
+
+
+
+
+        .apertura:before {
+            content: "<";
+        }
+
+        .apertura {
+            font-weight: normal;
+
+
+        }
+
+        .apertura:before,
+        .apertura:after {
+            display: inline-block;
+        }
+
+        .apertura:after {
+            content: ">";
+        }
+
+        .apertura:before,
+        .apertura:after {
+            display: inline-block;
+        }
+
+        .cierre:after {
+            content: "</" attr(data-text) ">";
+            display: inline-block;
+            font-size: 2rem;
+            margin-bottom: 3rem;
+
+        }
+    }
+}
+
+@media all and (min-width:700px) {
+
+    .itemsproyectos {
+        .proyecto {
+            width: 45%;
+            margin: 0rem 0.5rem;
+        }
+
+
+    }
+
+
+}
+
+
+
+@media all and (min-width:1280px) {
+
+    .itemsproyectos {
+
+        .proyecto {
+            width: 25%;
+            margin: 0rem 0.5rem;
+        }
+
+
+    }
+
+    .portfolio .apertura {
+        margin-left: 20%;
+    }
+
+    .portfolio .cierre {
+        margin-left: 20%;
+    }
+
+
+}

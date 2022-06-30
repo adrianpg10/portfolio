@@ -1,0 +1,31 @@
+.app{
+
+  height: 100vh;
+
+}
+.sections{
+  width: 100%;
+  position: relative;
+  top:3.6rem;
+  
+  
+}
+.sections > *{
+  width: 100%;
+  scroll-margin-top:3.6rem;
+}
+
+a.volverarriba{
+	
+	position: absolute;
+	right: 0;
+	margin-right: 0.5rem;
+	bottom: 0;
+	position: fixed;
+	display:none;
+	font-size: 2rem;
+	border-radius: 0.3rem;
+	color:#7AFDD6;
+	
+  
+}

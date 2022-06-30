@@ -1,0 +1,165 @@
+.experience {
+    background-color: #071426;
+    color: #7AFDD6;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    .seccion {
+        align-self: center;
+
+        padding: 0.5rem;
+
+        .seccionformacion {
+
+            display: flex;
+            flex-flow: column;
+
+
+            .formacion {
+                display: flex;
+                flex-flow: column;
+
+                .tipo {
+
+                    padding: 1rem;
+                    display: flex;
+                    flex-flow: column;
+                    cursor: pointer;
+
+                    .titulo {
+                        display: flex;
+                        align-items: center;
+
+                        h3 {
+                            font-size: 1.5rem;
+                            color: #EFF1F3;
+                        }
+
+                        .arrow {
+                            font-size: 2rem;
+                            margin-left: auto;
+                        }
+
+                        .arrowup {
+                            font-size: 2rem;
+                            margin-left: auto;
+                            display: none;
+                        }
+                    }
+
+                    .detalleformacion {
+
+                        display: flex;
+                        flex-flow: column;
+
+                        p {
+                            margin-top: 0.5rem;
+                            margin-bottom: 0.5rem;
+                            font-size: 1rem;
+                        }
+
+                        .tecnologias {
+                            display: flex;
+                            flex-flow: row wrap;
+                            justify-content: left;
+
+
+                            .tecnologia {
+
+                                background-color: #EFF1F3;
+                                color: #0A192F;
+                                padding: 0.2rem 0.5rem;
+                                font-size: 0.8rem;
+                                margin: 0 0.3rem 0.3rem 0;
+                                border-radius: 0.3rem;
+                            }
+
+
+                            .tecnologia:hover {
+                                background-color: #7AFDD6;
+                                border-color: #7AFDD6;
+                                color: #0A192F;
+
+                            }
+                        }
+
+                    }
+                }
+
+                .descripcion {
+                    display: flex;
+                    flex-flow: column;
+                    margin-top: 1rem;
+
+                    ul {
+
+                        display: flex;
+                        flex-flow: column;
+
+                        li {
+
+                            color: #7AFDD6;
+                            margin-bottom: 1rem;
+
+                            p {
+                                color: #EFF1F3;
+                            }
+                        }
+                    }
+
+                    display: none;
+                    color:#EFF1F3;
+                }
+            }
+
+        }
+
+        .apertura:before {
+            content: "<";
+        }
+
+        .apertura {
+            font-weight: normal;
+            margin-bottom: 1.5rem;
+
+
+        }
+
+        .apertura:before,
+        .apertura:after {
+            display: inline-block;
+        }
+
+        .apertura:after {
+            content: ">";
+        }
+
+        .apertura:before,
+        .apertura:after {
+            display: inline-block;
+        }
+
+        .cierre {
+            margin-top: 1.5rem;
+        }
+
+        .cierre:after {
+            content: "</" attr(data-text) ">";
+            display: inline-block;
+            font-size: 2rem;
+            margin-bottom: 3rem;
+
+        }
+    }
+}
+
+@media all and (min-width:1280px) {
+    .experience {
+        .seccion {  
+            width: 60%;
+        }
+
+    }
+}

@@ -1,0 +1,119 @@
+.aboutme {
+    background-color: #071426;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+
+    .contenido {
+        padding: 1.5rem;
+        align-self: center;
+        display: flex;
+        flex-flow: column;
+        height: inherit;
+        justify-content: center;
+        color: #7AFDD6;
+        
+
+        .left {
+
+            p.estilop {
+                color: #EFF1F3;
+                font-size: 1.2rem;
+                margin-top: 1rem;
+
+                span {
+                    color: #7afdd6;
+                }
+            }
+
+            p.estilop:nth-child(1) {
+                margin-top: 2rem;
+            }
+
+            p.estilop:nth-child(2) {
+                color: #eff1f3dd;
+            }
+
+
+
+
+            a.cvdescarga {
+
+                color: #e1e2e1;
+                padding: 0.7rem;
+                background-color: #071426;
+                border: 2px solid #e1e2e1;
+                font-size: 1.2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: calc(15rem + 1vw);
+                text-decoration: none;
+                cursor: pointer;
+                margin-top: 2rem;
+
+                border-radius: 0.3rem;
+
+                .download {
+                    margin-left: 0.5rem;
+                }
+            }
+
+            a:hover {
+                background-color: #7AFDD6;
+                border-color: #7AFDD6;
+                color: #071426;
+
+            }
+
+        }
+
+
+        .apertura:before {
+            content: "<";
+        }
+
+        .apertura {
+            font-weight: normal;
+            
+           
+        }
+
+        .apertura:before,
+        .apertura:after {
+            display: inline-block;
+        }
+
+        .apertura:after {
+            content: ">";
+        }
+
+        .apertura:before,
+        .apertura:after {
+            display: inline-block;
+        }
+
+        .cierre {
+            margin-top: 2rem;
+        }
+
+        .cierre:after {
+            content: "</" attr(data-text) ">";
+            display: inline-block;
+            font-size: 2rem;
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+
+@media all and (min-width:1280px) {
+    .contenido {
+      
+        width: 60%;
+
+
+    }
+}
