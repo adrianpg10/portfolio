@@ -36,7 +36,7 @@ export default function Topbar({ setMenuOpen, menuOpen }) {
             <a href='#contact'>Contacto</a>
           </li>
 
-          <a className='cv'href="/assets/curriculum.pdf">Currículum</a>
+          <a className='cv'href="/assets/curriculumAdrianPerez.pdf">Currículum</a>
 
         </ul>
         <div className='hamburger' onClick={() => setMenuOpen(!menuOpen)}>

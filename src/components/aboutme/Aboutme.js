@@ -15,7 +15,7 @@ export default function Aboutme() {
           <p className='estilop'>Actualmente me encuentro abierto a <span>nuevas oportunidades</span>, con ganas de experimentar <span>nuevos retos</span>, aplicar mis conocimientos y desarrollarme profesionalmente.</p>
           <p className='estilop'>Me gusta aprender nuevas tecnologías , soy <span>autodidacta</span> y me encanta el diseño.</p>
 
-          <a className='cvdescarga' href="/assets/curriculum.pdf">Curriculum Vitae (PDF) <FiDownload className='download' /></a>
+          <a className='cvdescarga' href="/assets/curriculumAdrianPerez.pdf">Curriculum Vitae (PDF) <FiDownload className='download' /></a>
 
 
         </div>

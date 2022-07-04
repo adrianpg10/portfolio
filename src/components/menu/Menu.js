@@ -27,7 +27,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                     <a href='#contact'>Contacto</a>
                 </li>
             </ul>
-                <a className='cv' href="/assets/curriculum.pdf">Currículum</a>
+                <a className='cv' href="/assets/curriculumAdrianPerez.pdf">Currículum</a>
             
         </div>
     )
