@@ -19,9 +19,17 @@ export const todos = [
         logogit: "CarteleraPeliculas-Ionic",
         enlacelaunch:" "
     },
-
     {
         id:3,
+        title: "Portfolio",
+        img: "../../assets/capturaportfolio.png",
+        descripcion : "React + Sass",
+        logogit: "portfolio",
+        enlacelaunch:"https://adrianperezportfolio.netlify.app"
+    },
+
+    {
+        id:4,
         title: "CRUD Libreria",
         img: "../../assets/capturalaravel.png",
         descripcion : "Laravel",
@@ -31,17 +39,17 @@ export const todos = [
     },
 
     {
-        id:4,
+        id:5,
         title: "Rezadri´s Car",
         img: "../../assets/capturarezadricar.png",
         descripcion : "Php + Rest",
         logogit: "rezadricar",
-        logolaunch: "rezadricar.herokuapp.com",
+        logolaunch: " ",
         enlacelaunch:"eva:external-link-fill"
         
     },
     {
-        id:5,
+        id:6,
         title: "Minevancic",
         img: "../../assets/capturaminevancic.png",
         descripcion : "Javascript",
@@ -51,7 +59,7 @@ export const todos = [
         
     },
     {
-        id:6,
+        id:7,
         title: "Múseo Rezadri",
         img: "../../assets/capturamuseo.png",
         descripcion : "Jquery",
@@ -62,7 +70,7 @@ export const todos = [
     },
 
     {
-        id:7,
+        id:8,
         title: "Tareas React",
         img: "../../assets/capturareacttarea.png",
         descripcion : "React",
@@ -73,7 +81,7 @@ export const todos = [
     },
 
     {
-        id:8,
+        id:9,
         title: "Calculadora",
         img: "../../assets/capturacalculadora.png",
         descripcion : "React",
@@ -83,7 +91,7 @@ export const todos = [
         
     },
     {
-        id:9,
+        id:10,
         title: "Contador Clics",
         img: "../../assets/capturacontador.png",
         descripcion : "React",
@@ -120,6 +128,14 @@ export const javascript = [
     },
     {
         id:3,
+        title: "Portfolio",
+        img: "../../assets/capturaportfolio.png",
+        descripcion : "React + Sass",
+        logogit: "portfolio",
+        enlacelaunch:"https://adrianperezportfolio.netlify.app"
+    },
+    {
+        id:4,
         title: "Tareas React",
         img: "../../assets/capturareacttarea.png",
         descripcion : "React",
@@ -129,7 +145,7 @@ export const javascript = [
         
     },
     {
-        id:4,
+        id:5,
         title: "Minevancic",
         img: "../../assets/capturaminevancic.png",
         descripcion : "Javascript",
@@ -140,7 +156,7 @@ export const javascript = [
     },
 
     {
-        id:5,
+        id:6,
         title: "Calculadora",
         img: "../../assets/capturacalculadora.png",
         descripcion : "React",
@@ -150,7 +166,7 @@ export const javascript = [
         
     },
     {
-        id:6,
+        id:7,
         title: "Múseo Rezadri",
         img: "../../assets/capturamuseo.png",
         descripcion : "Jquery",
@@ -160,7 +176,7 @@ export const javascript = [
         
     },
     {
-        id:7,
+        id:8,
         title: "Contador Clics",
         img: "../../assets/capturacontador.png",
         descripcion : "React",
