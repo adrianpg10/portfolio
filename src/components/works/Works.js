@@ -21,6 +21,8 @@ export default function Works() {
                 <div className='tecnologias'>
                   <span className='tecnologia'>HTML</span>
                   <span className='tecnologia'>CSS</span>
+                  <span className='tecnologia'>React</span>
+                  <span className='tecnologia'>Sass</span>
                   <span className='tecnologia'>PHP</span>
                   <span className='tecnologia'>Ionic</span>
                   <span className='tecnologia'>Laravel</span>

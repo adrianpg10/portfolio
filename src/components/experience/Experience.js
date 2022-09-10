@@ -22,6 +22,7 @@ export default function Experience() {
                   <span className='tecnologia'>HTML</span>
                   <span className='tecnologia'>CSS</span>
                   <span className='tecnologia'>PHP</span>
+                  <span className='tecnologia'>Sass</span>
                   <span className='tecnologia'>React</span>
                   <span className='tecnologia'>Jquery</span>
                   <span className='tecnologia'>Ajax</span>
