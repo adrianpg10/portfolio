@@ -25,7 +25,9 @@ export const todos = [
         img: "../../assets/capturaportfolio.png",
         descripcion : "React + Sass",
         logogit: "portfolio",
-        enlacelaunch:"https://adrianperezportfolio.netlify.app"
+        logolaunch:"adrianperezportfolio.netlify.app",
+        enlacelaunch:"eva:external-link-fill"
+        
     },
 
     {
@@ -44,8 +46,7 @@ export const todos = [
         img: "../../assets/capturarezadricar.png",
         descripcion : "Php + Rest",
         logogit: "rezadricar",
-        logolaunch: " ",
-        enlacelaunch:"eva:external-link-fill"
+        logolaunch: " "
         
     },
     {
@@ -132,7 +133,8 @@ export const javascript = [
         img: "../../assets/capturaportfolio.png",
         descripcion : "React + Sass",
         logogit: "portfolio",
-        enlacelaunch:"https://adrianperezportfolio.netlify.app"
+        logolaunch:"adrianperezportfolio.netlify.app",
+        enlacelaunch:"eva:external-link-fill"
     },
     {
         id:4,
@@ -197,8 +199,7 @@ export const php = [
         img: "../../assets/capturarezadricar.png",
         descripcion : "Php + Rest",
         logogit: "rezadricar",
-        logolaunch: "rezadricar.herokuapp.com",
-        enlacelaunch:"eva:external-link-fill"
+        logolaunch: " ",
         
     },
     {
