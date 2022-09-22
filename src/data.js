@@ -39,14 +39,14 @@ export const todos = [
         enlacelaunch:" "
         
     },
-
     {
         id:5,
-        title: "Rezadri´s Car",
-        img: "../../assets/capturarezadricar.png",
-        descripcion : "Php + Rest",
-        logogit: "rezadricar",
-        logolaunch: " "
+        title: "Buscador Peliculas",
+        img: "../../assets/capturapeliculas.png",
+        descripcion : "React + API",
+        logogit: "peliculasReact",
+        logolaunch: "peliculasrezadri.netlify.app",
+        enlacelaunch:"eva:external-link-fill"
         
     },
     {
@@ -69,38 +69,16 @@ export const todos = [
         enlacelaunch:"eva:external-link-fill"
         
     },
-
     {
         id:8,
-        title: "Tareas React",
-        img: "../../assets/capturareacttarea.png",
-        descripcion : "React",
-        logogit: "TareasReact",
-        logolaunch: "adrianpg10.github.io/TareasReact",
-        enlacelaunch:"eva:external-link-fill"
-        
-    },
-
-    {
-        id:9,
-        title: "Calculadora",
-        img: "../../assets/capturacalculadora.png",
-        descripcion : "React",
-        logogit: "CalculadoraReact",
-        logolaunch: "adrianpg10.github.io/CalculadoraReact",
-        enlacelaunch:"eva:external-link-fill"
-        
-    },
-    {
-        id:10,
-        title: "Contador Clics",
-        img: "../../assets/capturacontador.png",
-        descripcion : "React",
-        logogit: "ContadorClics",
-        logolaunch: "adrianpg10.github.io/ContadorClics",
-        enlacelaunch:"eva:external-link-fill"
+        title: "Rezadri´s Car",
+        img: "../../assets/capturarezadricar.png",
+        descripcion : "Php + Rest",
+        logogit: "rezadricar",
+        logolaunch: " "
         
     }
+   
 
 
 
@@ -138,13 +116,12 @@ export const javascript = [
     },
     {
         id:4,
-        title: "Tareas React",
-        img: "../../assets/capturareacttarea.png",
-        descripcion : "React",
-        logogit: "TareasReact",
-        logolaunch: "adrianpg10.github.io/TareasReact",
-        enlacelaunch:"eva:external-link-fill"
-        
+        title: "Buscador Peliculas",
+        img: "../../assets/capturapeliculas.png",
+        descripcion : "React + API",
+        logogit: "peliculasReact",
+        logolaunch: "peliculasrezadri.netlify.app",
+        enlacelaunch:"eva:external-link-fill" 
     },
     {
         id:5,
@@ -156,34 +133,13 @@ export const javascript = [
         enlacelaunch:"eva:external-link-fill"
         
     },
-
     {
         id:6,
-        title: "Calculadora",
-        img: "../../assets/capturacalculadora.png",
-        descripcion : "React",
-        logogit: "CalculadoraReact",
-        logolaunch: "adrianpg10.github.io/CalculadoraReact",
-        enlacelaunch:"eva:external-link-fill"
-        
-    },
-    {
-        id:7,
         title: "Múseo Rezadri",
         img: "../../assets/capturamuseo.png",
         descripcion : "Jquery",
         logogit: "MuseoRezadri",
         logolaunch: "adrianpg10.github.io/MuseoRezadri",
-        enlacelaunch:"eva:external-link-fill"
-        
-    },
-    {
-        id:8,
-        title: "Contador Clics",
-        img: "../../assets/capturacontador.png",
-        descripcion : "React",
-        logogit: "ContadorClics",
-        logolaunch: "adrianpg10.github.io/ContadorClics",
         enlacelaunch:"eva:external-link-fill"
         
     }
