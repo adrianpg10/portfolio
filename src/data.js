@@ -41,7 +41,7 @@ export const todos = [
     },
     {
         id:5,
-        title: "Buscador Peliculas",
+        title: "Buscador Películas",
         img: "../../assets/capturapeliculas.png",
         descripcion : "React + API",
         logogit: "peliculasReact",
@@ -116,7 +116,7 @@ export const javascript = [
     },
     {
         id:4,
-        title: "Buscador Peliculas",
+        title: "Buscador Películas",
         img: "../../assets/capturapeliculas.png",
         descripcion : "React + API",
         logogit: "peliculasReact",
