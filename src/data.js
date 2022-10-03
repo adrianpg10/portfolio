@@ -61,11 +61,11 @@ export const todos = [
     },
     {
         id:7,
-        title: "Múseo Rezadri",
-        img: "../../assets/capturamuseo.png",
-        descripcion : "Jquery",
-        logogit: "MuseoRezadri",
-        logolaunch: "adrianpg10.github.io/MuseoRezadri",
+        title: "Chat Rezadri",
+        img: "../../assets/capturachat.png",
+        descripcion : "React + firebase",
+        logogit: "RezadriChat",
+        logolaunch: "chatrezadri.netlify.app",
         enlacelaunch:"eva:external-link-fill"
         
     },
@@ -135,11 +135,11 @@ export const javascript = [
     },
     {
         id:6,
-        title: "Múseo Rezadri",
-        img: "../../assets/capturamuseo.png",
-        descripcion : "Jquery",
-        logogit: "MuseoRezadri",
-        logolaunch: "adrianpg10.github.io/MuseoRezadri",
+        title: "Chat Rezadri",
+        img: "../../assets/capturachat.png",
+        descripcion : "React + firebase",
+        logogit: "RezadriChat",
+        logolaunch: "chatrezadri.netlify.app",
         enlacelaunch:"eva:external-link-fill"
         
     }
