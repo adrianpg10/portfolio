@@ -15,6 +15,7 @@ export default function Intro() {
         backDelay: 1500,
         backSpeed: 60,
         strings: ["Full Stack", "Front End", "Back End"]
+        
       });
   }, [])
 

@@ -9,6 +9,66 @@ export default function Works() {
         <h1 className='apertura'>experiencia</h1>
 
         <div className='seccionformacion' data-aos="fade-up" data-aos-delay="200">
+
+        <div className='formacion'>
+            <div className='tipo'>
+              <div className='titulo'>
+              <h3>Piscinas y productos Decoytec</h3>
+              <FiChevronDown className='arrow'/>
+              <FiChevronUp className='arrowup'/>
+              </div>
+              <div className='detalleformacion'>
+                <p>Septiembre 2022 - Actualmente</p>
+                <div className='tecnologias'>
+                  <span className='tecnologia'>HTML</span>
+                  <span className='tecnologia'>CSS</span>
+                  <span className='tecnologia'>PHP</span>
+                  <span className='tecnologia'>Smarty</span>
+                  <span className='tecnologia'>Prestashop</span>
+                  <span className='tecnologia'>Filezilla</span>
+                  <span className='tecnologia'>Mysql</span>
+                  <span className='tecnologia'>Adobe Dreamweaver</span>
+                  <span className='tecnologia'>Dinahosting</span>
+                </div>
+              </div>
+              <div className='descripcion'>
+            <ul>
+              <li>
+                <p>Administración web en Prestashop.</p>
+              </li>
+              <li>
+                <p>Gestión y creación multitienda.</p>
+              </li>
+              <li>
+                <p>Modificación archivos .tpl.</p>
+              </li>
+              <li>
+                <p>Inserción y administración de módulos.</p>
+              </li>
+              <li>
+              <p>Administración hosting y dominio en Dinahosting.</p>
+              </li>
+              <li>
+              <p> Gestión archivos en Filezilla.</p>
+              </li>
+              <li>
+              <p>Edición de código en Adobe Dreamweaver.</p>
+              </li>
+              <li>
+              <p> Comunicación en slack.</p>
+              </li>
+              <li>
+              <p>Administración base de datos.</p>
+              </li>
+            </ul>
+
+          </div>
+            </div>
+          
+
+          </div>
+
+
           <div className='formacion'>
             <div className='tipo'>
               <div className='titulo'>
